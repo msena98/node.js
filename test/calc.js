@@ -1,19 +1,7 @@
-function soma(a,b)
-{
-    return a+b;
-}
+var SomaFunc = require("./soma");
+var SubFunc = require("./sub");
+var MultiFunc = require("./multi");
 
-function sub(a,b)
-{
-    return a-b;
-}
-
-function multi(a,b)
-{
-    return a*b;
-}
-
-function div(a,b)
-{
-    return a/b;
-}
+console.log(SomaFunc(1,3)); 
+console.log(SubFunc(1,3)); 
+console.log(MultiFunc(1,3)); 
