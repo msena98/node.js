@@ -5,4 +5,4 @@ function soma(a,b){
     return a+b
 }
 
-console.log(sosma(num,num2))
+console.log(soma(num,num2))
